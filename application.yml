@@ -1,0 +1,27 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/practicedb
+    username: root
+  jpa:
+    datasource-platform: 'org.hibernate.dialect.MySQL5Dialect  '
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    password: kymajsesxkhwugok
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    protocol: smtp
+    test-connection: false
+    username: dappaacc123@gmail.com
