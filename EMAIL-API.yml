@@ -25,3 +25,9 @@ spring:
     protocol: smtp
     test-connection: false
     username: dappaacc123@gmail.com
+    
+eureka: 
+  client: 
+    serrvice-url: 
+      default-zone: http://localhost:8761
+
