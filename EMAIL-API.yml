@@ -28,6 +28,6 @@ spring:
     
 eureka: 
   client: 
-    serrvice-url: 
+    service-url: 
       default-zone: http://localhost:8761
 
