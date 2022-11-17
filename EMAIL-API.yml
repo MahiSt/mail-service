@@ -1,7 +1,3 @@
-spring:
-  cloud:
-    config:
-      enabled: false
   datasource:
     password: root
     url: jdbc:mysql://localhost:3306/practicedb
