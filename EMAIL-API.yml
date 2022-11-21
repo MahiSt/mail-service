@@ -13,7 +13,7 @@ spring:
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    password: kymajsesxkhwugok
+    password: cndppxhcaykeobgy
     port: 587
     properties:
       mail:
