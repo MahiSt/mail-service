@@ -11,4 +11,4 @@ spring:
        - id: emailApi
          uri: lb://EMAIL-API
          predicates:
-          - Path=/** 
+          - Path=/template-mailing/** 
